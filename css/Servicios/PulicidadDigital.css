@@ -1,0 +1,15 @@
+/*Publicidad Digital*/
+
+	/*header*/
+
+svg.Publicidad_Digital{
+	width: 250px;
+	height: 250px;
+	
+	left: 0px;
+	top: 0px;
+}
+
+svg.Publicidad_Digital g path{
+	fill: #FFFFFF;
+}

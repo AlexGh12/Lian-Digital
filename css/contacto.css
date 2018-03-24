@@ -1,0 +1,263 @@
+div.bg-contact{
+	width: 100%;
+	min-height: 1150px;
+
+	background: rgba(255,160,76,1);
+	background: -moz-linear-gradient(top, rgba(255,160,76,1) 0%, rgba(255,67,10,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,160,76,1)), color-stop(100%, rgba(255,67,10,1)));
+	background: -webkit-linear-gradient(top, rgba(255,160,76,1) 0%, rgba(255,67,10,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,160,76,1) 0%, rgba(255,67,10,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,160,76,1) 0%, rgba(255,67,10,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,160,76,1) 0%, rgba(255,67,10,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffa04c', endColorstr='#ff430a', GradientType=0 );
+
+	position: relative;
+
+	z-index: -3
+}
+
+article.particle{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+
+	background-image: 
+	repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.07) 35px, rgba(255,255,255,.07) 70px);
+
+	z-index: -2
+}
+
+article.section-contact{
+	width: 50%;
+	min-height: 1150px;
+
+	float: left;
+
+	z-index: -1
+}
+
+article.section-maps{
+	width: 50%;
+	min-height: 1150px;
+
+	float: left;
+
+	z-index: -1
+}
+
+.txt-mitad{
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+h2.titel-contanto{
+	padding-top: 20px;
+	margin: 0;
+
+	color: #FFF;
+	font-size: 4em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+
+div.boxnombre{
+	width: 600px;
+	margin: 15px auto;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	
+	justify-content: flex-start;
+	align-items: center;
+}
+
+span.iconagente{
+	display: block;
+	width: 120px;
+	height: 120px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+h3.titlenombre, h3.title-cargo, h3.conten-cont{
+	margin: 0 0 0 20px;
+	color: #FFF;
+	line-height: 1	;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+}
+
+h3.titlenombre{
+	font-size: 3em;
+}
+
+h3.title-cargo{
+	font-size: 2em;
+}
+
+.iconn{
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgba(255,255,255,.0);
+	border-radius: 50%;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.iconn1{
+	background-image: url(../icon/lian-digital-17.svg);
+}
+
+.iconn2{
+	background-image: url(../icon/lian-digital-15.svg);
+}
+
+.iconn3{
+	background-image: url(../icon/lian-digital-16.svg);
+}
+
+
+.conten-cont{
+	font-size: 1.8em;
+}
+
+form.formulario{
+	margin: 40px;
+
+	float: left;
+
+	width: 500px;
+}
+
+.formulario-box{
+	width: 100%;
+	height: 380px;
+	background-color: blue;
+
+	float: left;
+}
+
+input, select, textarea{
+	width: 100%;
+	margin: 5px;
+	border-radius: 5px;
+	border: 0px;
+
+	padding: 5px;
+}
+
+input[type=text], 
+input[type=mail], 
+input[type=submit], 
+textarea,
+select{
+	color: #FFF;
+	font-size: 1.2em;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: lighter;
+	background-color: rgba(242,251,255,.0);
+	border-bottom: 1px solid #FFF;
+	border-radius: 0px;
+
+	-webkit-transition: 0.5s ease-in-out 0s;
+	-moz-transition   : 0.5s ease-in-out 0s;
+	-o-transition     : 0.5s ease-in-out 0s;
+}
+
+textarea{
+	max-width: 500px;
+	min-width: 500px;
+	max-height: 135px;
+	border-left: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	border-radius: 0px 0px 5px 5px;
+}
+
+input[type=text]::-webkit-input-placeholder, 
+input[type=mail]::-webkit-input-placeholder, 
+input[type=submit]::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder,
+select::-webkit-input-placeholder{
+	color: rgba(255,255,255,.5);
+	font-size: 1.2em;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: rgba(242,251,255,.0);
+	font-weight: lighter;
+}
+
+input[type=submit]{
+	background-color: rgba(0,0,0,.0);
+	border-radius: 5px!important;
+	border: 1px solid #FFF!important;
+}
+
+input[type=submit]:hover{
+	background-color: rgba(0,0,0,.3);
+	border-radius: 8px!important;
+	border: 1px solid #FFF!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

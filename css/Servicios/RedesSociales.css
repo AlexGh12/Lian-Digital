@@ -1,0 +1,76 @@
+/*Redes Sociales*/
+
+	/*header*/
+
+header.headerRS{
+	background-image: url(../../img/bgRSV.png);
+}
+
+svg.Redes_Sociales{
+	width: 250px;
+	height: 250px;
+	
+	left: 0px;
+	top: 0px;
+}
+
+svg.Redes_Sociales g path{
+	fill: #FFFFFF;
+}
+
+
+
+
+
+
+
+		/*Cuerpo*/
+
+
+
+
+
+section.texture{
+	width: 100%;
+	height: 100%;
+
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+	background-image: url("../../icon/servicios-RS-01.svg");
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+
+	z-index: 1;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

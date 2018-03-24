@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1190px){
+	article.box-clientes{
+		width: 300px;
+		height: 300px;
+
+		margin: 20px;
+
+		border-radius: 20px 20px 20px 20px;
+		-moz-border-radius: 20px 20px 20px 20px;
+		-webkit-border-radius: 20px 20px 20px 20px;
+	}
+
+	article.box-clientes:hover > span.box-clientes h2.title-clientes,
+	article.box-clientes:hover > span.box-clientes h3.title-clientes{
+		font-size: 1.1em;
+		padding-top: 10px;
+	}
+
+	article.box-clientes:hover > span.box-clientes h3.title-clientes{
+		font-size: .8em!important;
+		padding: 5px 15px;
+	}
+}
+
+@media only screen and (max-width: 1030px){
+	article.box-clientes{
+		width: 270px;
+		height: 270px;
+
+		margin: 15px;
+
+		border-radius: 20px 20px 20px 20px;
+		-moz-border-radius: 20px 20px 20px 20px;
+		-webkit-border-radius: 20px 20px 20px 20px;
+	}
+
+	article.box-clientes:hover > span.box-clientes h2.title-clientes,
+	article.box-clientes:hover > span.box-clientes h3.title-clientes{
+		font-size: 1em;
+		padding: 10px 10px 0px 10px!important;
+		margin-bottom: 3px;
+	}
+
+	article.box-clientes:hover > span.box-clientes h3.title-clientes{
+		font-size: .8em!important;
+		padding: 0px 15px;
+	}
+}
+
+@media only screen and (max-width: 910px){
+	article.box-clientes{
+		width: 240px;
+		height: 240px;
+
+		margin: 10px;
+
+		border-radius: 15px 15px 15px 15px;
+		-moz-border-radius: 15px 15px 15px 15px;
+		-webkit-border-radius: 15px 15px 15px 15px;
+	}
+
+	article.box-clientes:hover > span.miniwarriors{
+		overflow-y: scroll;
+	}
+
+	article.box-clientes:hover > span.box-clientes h2.title-clientes,
+	article.box-clientes:hover > span.box-clientes h3.title-clientes{
+		font-size: 1em;
+		padding: 10px 10px 0px 10px!important;
+		margin-bottom: 3px;
+	}
+
+	article.box-clientes:hover > span.box-clientes h3.title-clientes{
+		font-size: .8em!important;
+		padding: 0px 15px;
+	}
+}

@@ -1,0 +1,489 @@
+div.bg-cleintes{
+	width: 100%;
+	min-height: 800px;
+
+	background-color: #393939;
+
+	position: relative;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+/*div.bgtexture{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+
+	background-image: url(../icon/servicios-RS-01.svg);
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	background-position: top;
+}*/
+
+section.boxs-clientes{
+	width: 50%;
+	min-height: 800px;
+	background-color: #FFF;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+div.sectionInfoClientes{
+	width: 50%;
+	min-height: 800px;
+	background-color: #393939;
+	position: relative;
+
+	/*-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;*/
+}
+
+section.view-info-clientes{
+	width: 100%;
+	min-height: 100%;
+
+	position: absolute;
+
+	-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;
+}
+
+header.title-clientes{
+	width: 100%;
+	height: 100px;
+	padding: 0px 80px 0px 80px;
+
+	margin-top: 0px;
+
+	text-align: center;
+	color: #FF8B22;
+	font-size: 1.9em;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	
+	justify-content: space-around;
+	align-items: center;
+}
+
+article.content-clientes{
+	width: 100%;
+	min-height: 50px;
+}
+
+article.content-servicios{
+	width: 100%;
+	height: 300px;
+
+	position: relative;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: row wrap;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+section.view-info-clientes article.content-clientes h2.title-clientes,
+section.view-info-clientes article.content-clientes h3.title-clientes{
+	color: #FF8B22;
+	padding: 30px 45px 10px 45px;	
+	text-decoration: none;
+	font-weight: lighter;
+	font-family: 'Source Sans Pro', sans-serif;
+
+	-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;
+}
+
+section.view-info-clientes article.content-clientes h2.title-clientes{
+	font-size: 2.5em;
+	text-align: center;
+}
+
+section.view-info-clientes article.content-clientes h3.title-clientes{
+	font-size: 1.8em;
+}
+
+article.content-servicios h2.title-clientes-SEVIC{
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+
+	color: #FF8B22;
+	padding: 30px 45px 10px 45px;	
+	text-decoration: none;
+	text-align: center;
+	font-size: 2em;
+	font-weight: lighter;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.iconServic, div.iconServicActv{
+	margin: 60px 10px 0px 10px;
+	/*border: 1px solid #FF8B22;*/
+	/*border-radius: 8px;*/
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+div.iconServicActv{	
+	border: 1px solid #FF8B22;
+	border-radius: 8px;
+}
+
+div.iconServicActv svg,
+div.iconServic svg{
+	width: 100px;
+	height: 100px;
+
+	margin: 15px 30px;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+div.iconServic svg g path{
+	fill: rgba(255,139,34,.15) ;
+}
+
+div.iconServicActv svg g path{
+	fill: #FF8B22 ;
+}
+
+div.iconServicActv:hover > span.NameSrvc{
+	font-size: 1.5em;
+	color: #FF8B22;
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+span.NameSrvc{
+	font-size: 1px;
+	color: rgba(255,139,34,.0);
+	text-decoration: none;
+	text-align: center;
+	font-weight: lighter;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: -15px;
+	margin-bottom: 15px;
+
+	-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;
+}
+
+span.NameSrvcON{
+	font-size: 1.5em;
+	color: #FF8B22;
+	text-decoration: none;
+	text-align: center;
+	font-weight: lighter;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;
+}
+
+
+
+
+	/*Secciones Ocultas*/
+
+
+
+section.view-info-clientes-none{
+	-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;
+
+	width: 0px;
+	height: 0px;
+
+	overflow: hidden;
+}
+
+
+		/*Imagenes Clientes*/
+
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4,
+.icon-5,
+.icon-6,
+.icon-7,
+.icon-8,
+.icon-9{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+
+	cursor: pointer;
+	display: block;
+	margin: 30px;
+	/*border: 1px solid #FFF;*/
+	/*background-color: rgba(255,255,255,.5);*/
+
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	
+	justify-content: flex-start;
+	align-items: center;
+
+
+	-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;
+
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+}
+
+.icon-1{
+	background-image: url(../icon/icon_Clientes-02.svg);
+}
+
+.icon-2{
+	background-image: url(../icon/icon_Clientes-04.svg);
+}
+
+.icon-3{
+	background-image: url(../icon/icon_Clientes-06.svg);
+}
+
+.icon-4{
+	background-image: url(../icon/icon_Clientes-08.svg);
+}
+
+.icon-5{
+	background-image: url(../icon/icon_Clientes-10.svg);
+}
+
+.icon-6{
+	background-image: url(../icon/icon_Clientes-12.svg);
+}
+
+.icon-7{
+	background-image: url(../icon/icon_Clientes-14.svg);
+}
+
+.icon-8{
+	background-image: url(../icon/icon_Clientes-16.svg);
+}
+
+.icon-9{
+	background-image: url(../icon/icon_Clientes-18.svg);
+}
+
+.icon-1:hover{
+	background-image: url(../icon/icon_Clientes-01.svg);
+}
+
+.icon-2:hover{
+	background-image: url(../icon/icon_Clientes-03.svg);
+}
+
+.icon-3:hover{
+	background-image: url(../icon/icon_Clientes-05.svg);
+}
+
+.icon-4:hover{
+	background-image: url(../icon/icon_Clientes-07.svg);
+}
+
+.icon-5:hover{
+	background-image: url(../icon/icon_Clientes-09.svg);
+}
+
+.icon-6:hover{
+	background-image: url(../icon/icon_Clientes-11.svg);
+}
+
+.icon-7:hover{
+	background-image: url(../icon/icon_Clientes-13.svg);
+}
+
+.icon-8:hover{
+	background-image: url(../icon/icon_Clientes-15.svg);
+}
+
+.icon-9:hover{
+	background-image: url(../icon/icon_Clientes-17.svg);
+}
+
+
+		/*IMG activos*/
+
+.icon-1-avtive,
+.icon-2-avtive,
+.icon-3-avtive,
+.icon-4-avtive,
+.icon-5-avtive,
+.icon-6-avtive,
+.icon-7-avtive,
+.icon-8-avtive,
+.icon-9-avtive{
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+
+	cursor: pointer;
+	display: block;
+	margin: 30px;
+	border: 1px solid #FF8B22;
+
+	border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+
+	/*Flexbox*/
+	display: flex;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	
+	flex-flow: column wrap;
+	
+	justify-content: flex-start;
+	align-items: center;
+
+
+	-webkit-transition: 0.4s ease-in-out 0s!important;
+	-moz-transition   : 0.4s ease-in-out 0s!important;
+	-o-transition     : 0.4s ease-in-out 0s!important;
+
+	background-position: center;
+	background-repeat  : no-repeat;
+	background-size    : cover;
+}
+
+.icon-1-avtive{
+	background-image: url(../icon/icon_Clientes-01.svg);
+}
+
+.icon-2-avtive{
+	background-image: url(../icon/icon_Clientes-03.svg);
+}
+
+.icon-3-avtive{
+	background-image: url(../icon/icon_Clientes-05.svg);
+}
+
+.icon-4-avtive{
+	background-image: url(../icon/icon_Clientes-07.svg);
+}
+
+.icon-5-avtive{
+	background-image: url(../icon/icon_Clientes-09.svg);
+}
+
+.icon-6-avtive{
+	background-image: url(../icon/icon_Clientes-11.svg);
+}
+
+.icon-7-avtive{
+	background-image: url(../icon/icon_Clientes-13.svg);
+}
+
+.icon-8-avtive{
+	background-image: url(../icon/icon_Clientes-15.svg);
+}
+
+.icon-9-avtive{
+	background-image: url(../icon/icon_Clientes-17.svg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

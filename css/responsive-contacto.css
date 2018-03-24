@@ -1,0 +1,242 @@
+@media only screen and (max-width: 1300px){
+	article.section-contact{
+		width: 55%;
+	}
+
+	article.section-maps{
+		width: 45%;
+	}
+}
+
+@media only screen and (max-width: 1150px){
+	
+	div.bg-contact{
+		min-height: 900px;
+	}
+
+	article.section-contact{
+		width: 50%;
+		min-height: 900px;
+	}
+
+	article.section-maps{
+		width: 50%;
+		min-height: 900px;
+	}
+
+	h2.titel-contanto{
+		font-size: 3em;
+	}
+
+	h3.titlenombre{
+		font-size: 2em;
+	}
+
+	h3.title-cargo{
+		font-size: 1em;
+	}
+
+	.conten-cont{
+		font-size: 1.2em;
+	}
+
+	div.boxnombre{
+		width: 420px;
+	}
+
+	input[type=text], 
+	input[type=mail], 
+	input[type=submit], 
+	textarea,
+	select{
+		font-size: 1em;
+	}
+
+	input[type=text]::-webkit-input-placeholder, 
+	input[type=mail]::-webkit-input-placeholder, 
+	input[type=submit]::-webkit-input-placeholder, 
+	textarea::-webkit-input-placeholder,
+	select::-webkit-input-placeholder{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (max-width: 1060px){
+
+	form.formulario{
+		width: 400px;
+	}
+
+	textarea{
+		max-width: 400px;
+		min-width: 400px;
+		max-height: 135px;
+	}
+
+}
+
+@media only screen and (max-width: 880px){
+
+	article.section-contact{
+		width: 55%;
+		min-height: 900px;
+	}
+
+	article.section-maps{
+		width: 45%;
+		min-height: 900px;
+	}
+
+	h2.titel-contanto{
+		font-size: 2.5em;
+	}
+
+	h3.titlenombre{
+		font-size: 1.5em;
+	}
+
+	h3.title-cargo{
+		font-size: .8em;
+	}
+
+	.conten-cont{
+		font-size: 1em;
+	}
+
+	div.boxnombre{
+		width: 370px;
+	}
+
+	form.formulario{
+		width: 350px;
+	}
+
+	textarea{
+		max-width: 350px;
+		min-width: 350px;
+		max-height: 100px;
+	}
+
+}
+
+@media only screen and (max-width: 680px){
+
+	article.section-contact{
+		width: 55%;
+		min-height: 900px;
+	}
+
+	article.section-maps{
+		width: 45%;
+		min-height: 900px;
+	}
+
+	h2.titel-contanto{
+		font-size: 2.5em;
+	}
+
+	h3.titlenombre{
+		font-size: 1.5em;
+	}
+
+	h3.title-cargo{
+		font-size: .8em;
+	}
+
+	.conten-cont{
+		font-size: 1em;
+		margin: 0px 0px 0px 8px!important;
+	}
+
+	div.boxnombre{
+		width: 350px;
+	}
+
+	form.formulario{
+		width: 330px;
+	}
+
+	textarea{
+		max-width: 330px;
+		min-width: 330px;
+		max-height: 100px;
+	}
+
+	.iconn{
+		width: 30px;
+		height: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 650px){
+
+	div.bg-contact{
+		width: 100%;
+		min-height: 1150px;
+	}
+
+	article.section-contact{
+		width: 100%;
+		min-height: 850px;
+	}
+
+	article.section-maps{
+		width: 100%;
+		min-height: 300px;
+	}
+
+}
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
